@@ -1,5 +1,3 @@
-import { redirect } from "next/navigation"
-
 export default function HomePage() {
-  redirect("/APC-50k-Campaign")
+  return <main>Nothing to see here.</main>
 }
