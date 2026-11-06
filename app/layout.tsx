@@ -22,6 +22,12 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     <html lang="en-NG">
       <head>
         <meta name="monetag" content="8df66a08c270f5502b714c4f37cd2d6c" />
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="306623"
+          async
+          data-cfasync="false"
+        />
       </head>
       <body>{children}</body>
     </html>
