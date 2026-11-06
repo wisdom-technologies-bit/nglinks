@@ -20,6 +20,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en-NG">
+      <head>
+        <meta name="monetag" content="8df66a08c270f5502b714c4f37cd2d6c" />
+      </head>
       <body>{children}</body>
     </html>
   )
